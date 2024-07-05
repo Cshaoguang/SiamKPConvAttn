@@ -18,12 +18,11 @@ python setup.py build develop
 ```
 
 ## Data Preparation
-
-## SiamKPConvAttn
- ## Synthetic
+```
+ ## SiamKPConvAttn
+  ## Synthetic
  
 The data should be organized as follows:
-```
 --time_a
        |--test
        |--train
@@ -37,7 +36,6 @@ The data should be organized as follows:
                         |--train
                         |--val
 ```
-
 ## Training
 
 ```
@@ -50,6 +48,8 @@ export PYTHONPATH=..:$PYTHONPATH
 ```
 
 ## Testing
+
+```
 #The test data needs to be placed in the 'test' folder of each dataset.
      ## SiamKPConvAttn
       ## Synthetic
